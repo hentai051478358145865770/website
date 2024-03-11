@@ -1,0 +1,17 @@
+<html>
+<body>
+  <script>
+    function move(n,a,b,c)
+    {
+        if (n == 1) document.write("from"+a+"to"+c+"<br>");  
+        else{
+            move(n-1,a,c,b)
+            document.write("from"+a+"to"+c+"<br>");
+            move(n-1,b,a,c)
+        }
+    
+    }
+    move(7,"A","B","C")
+</script>  
+</body>
+</html>
