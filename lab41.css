@@ -1,0 +1,43 @@
+
+body
+{
+   margin:5px 5px 5px 5px
+}
+
+div,pic
+{
+   background-color:yellow;
+   background-image:radial-gradient(#DDCC11,#FFFFFF,#00CCDE);
+   border-top-width:17px;
+   color:yellow;
+   font-family:Comic Sans MS,cursive,sans-serif;
+   font-size:22px;
+   font-weight:640;
+   height:300px;
+   transform-origin:20% 40%;
+   width:300px
+}
+
+div,jpg
+{
+   background-color:yellow;
+   background-image:url(https://tse3-mm.cn.bing.net/th/id/OIP-C.yIWtAgsVcqctHABydDIBCAHaEJ?w=333&h=187&c=7&r=0&o=5&cb=10&dpr=1.5&pid=1.7);
+   background-repeat:no-repeat;
+   color:pink;
+   font-family:Comic Sans MS,cursive,sans-serif;
+   font-weight:640;
+   height:300px;
+   transform-origin:40% 40%;
+   width:500px
+}
+
+div,abc
+{
+   background-color:orange;
+   border-radius:200px/150px;
+   -webkit-border-radius:200px/150px;
+   -moz-border-radius:200px/150px;
+   height:300px;
+   transform-origin:40% 40%;
+   width:400px
+}
