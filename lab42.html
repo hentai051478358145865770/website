@@ -1,0 +1,100 @@
+
+<html>
+<head>
+<style>
+#star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: yellow;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellow;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+}
+
+#star-five:before {
+    border-right: 30px solid transparent;
+    border-bottom: 80px solid yellow;
+    border-left: 30px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellow;
+    border-left: 100px solid transparent;
+    transform: rotate(70deg);
+}
+
+#star-five:after {
+    position: relative;
+    display: block;
+    color: yellow;
+    top: -20px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid yellow;
+    border-left: 20px solid transparent;
+    transform: rotate(180deg);
+}
+
+#div0 {
+    position: relative;
+    left: 200px;
+}
+
+#div1 {
+    background-color: yellow;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+#div2 {
+    background-color: gray;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 100px;
+    top: -50px;
+    margin: 100px 0px 0px 50px;
+    z-index: 1;
+}
+
+#div3 {
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    transform: scale(3.0);
+}
+
+#div4 {
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    transform: scale(3.0);
+}
+
+#div5 {
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    transform: scale(3.0);
+}
+</style>
+</head>
+<body>
+<h1>Title</h1>
+<div id="div0"></div>
+<div id="div1"></div>
+<div id="div2"></div>
+<div id="div3"></div>
+<div id="star-five"></div>
+</body>
+</html>
